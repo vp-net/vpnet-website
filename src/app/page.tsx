@@ -8,7 +8,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <main className="bg-[#000000] flex min-h-screen flex-col items-center px-24 sm:px-2 lg:px-24">
+    <main className="bg-[#000000] flex min-h-screen flex-col items-center ps-3 pe-2 px-24">
      
      {/* <App/> */}
      <GlobeDemo/>
