@@ -31,7 +31,7 @@ export function FeaturesSectionDemo() {
       icon: <IconCurrencyDollar />,
     },
     {
-      title: "100% Uptime guarantee",
+      title: "100% Uptime",
       description: "We just cannot be taken down by anyone.",
       icon: <IconCloud />,
     },
@@ -41,7 +41,7 @@ export function FeaturesSectionDemo() {
       icon: <IconRouteAltLeft />,
     },
     {
-      title: "Bypass Network Restrictions",
+      title: "Bypass Restrictions",
       description:
         "Bypass network restrictions effortlessly and access the online world without limitations with VPNet.",
       icon: <IconAdjustmentsBolt />,
@@ -52,7 +52,7 @@ export function FeaturesSectionDemo() {
       icon: <IconCloudStorm />,
     },
     {
-        title: "24/7 Customer Support",
+        title: "24/7 Support",
         description:
           "We are available a 100% of the time. We are always there to help you out with any issues you might face. We are just a click away",
         icon: <IconHelp />,
@@ -97,11 +97,11 @@ const Feature = ({
       </div>
       <div className="text-lg font-bold mb-2 relative z-10 px-10">
         <div className="absolute left-0 inset-y-0 h-6 group-hover/feature:h-8 w-1 rounded-tr-full rounded-br-full bg-neutral-300 dark:bg-neutral- group-hover/feature:bg-green-500 transition-all duration-200 origin-center" />
-        <span className="group-hover/feature:translate-x-2 transition duration-200 inline-block text-neutral-800 dark:text-neutral-100">
+        <span className="group-hover/feature:translate-x-2 transition duration-200 inline-block text-green-400 dark:text-green-400">
           {title}
         </span>
       </div>
-      <p className="text-sm text-neutral-600 dark:text-neutral-300 max-w-xs relative z-10 px-10">
+      <p className="text-sm bg-clip-text text-gray-400 font-sans font-normal relative z-10 px-10">
         {description}
       </p>
     </div>
