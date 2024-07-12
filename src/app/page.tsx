@@ -12,6 +12,7 @@ export default function Home() {
      
      {/* <App/> */}
      <GlobeDemo/>
+     <h1 className="relative z-1  text-2xl md:text-2xl lg:text-2xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">Features</h1>
      <FeaturesSectionDemo/>
      
      
