@@ -18,6 +18,7 @@ const config = {
       },
     },
     extend: {
+      
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -67,6 +68,7 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -74,6 +76,10 @@ const config = {
       },
     },
   },
+  animation: {
+    spotlight: "spotlight 2s ease .75s 1 forwards",
+  },
+ 
   plugins: [
     require("tailwindcss-animate")
 
