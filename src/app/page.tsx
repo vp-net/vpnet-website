@@ -5,18 +5,19 @@ import {GlobeDemo} from "@/ui/globe";
 import { FloatingNavDemo } from "@/ui/nav";
 
 
+
+
 import React from "react";
 
 
 export default function Home() {
   return (
-    <main className="bg-[#000000] flex min-h-screen flex-col items-center pt-24  ps-5 lg:px-24 sm:ps-2 pe-3 px-24 sm:p-3">
-     
+    <main className="bg-[#000000] flex min-h-screen flex-col items-center pt-24  ps-3 lg:px-24 sm:ps-1 pe-3 px-24 sm:p-2">
      <FloatingNavDemo/>
      <GlobeDemo/>
-     <h1 className="relative z-1  text-3xl md:text-3xl lg:text-3xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">Features</h1>
+     <h1 className="relative z-1  text-3xl md:text-3xl lg:text-3xl ps-3  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">Features</h1>
      <FeaturesSectionDemo/>
-    
+  
      
      
      
