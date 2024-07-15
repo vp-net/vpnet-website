@@ -396,7 +396,7 @@ export function GlobeDemo() {
 
   return (
     <div className="flex flex-row items-center justify-center h-screen md:h-auto  dark:bg-black bg-white relative w-full">
-       <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[50rem] sm:h-[20rem] ">{/*size of the globe} */}
+       <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[50rem] sm:h-full sm-px-0 ">{/*size of the globe} */}
         <motion.div
           initial={{
             opacity: 0,
@@ -411,15 +411,10 @@ export function GlobeDemo() {
           }}
           className="div"
         >
-          <h2 className=" relative z-1 text-7xl md:text-8xl lg:text-9xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
-           <br/> VPNET
-          </h2>
-          <p className="relative z-1  text-1xl md:text-1xl lg:text-1xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
-              <br/>Tailored for College Students
-          </p>
+
         </motion.div>
         <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-black to-white z-40" />
-        <div className=" w-full -bottom-22 h-72 md:h-full z-10">
+        <div className=" w-full -bottom-22 h-40 md:h-full z-10">
           <World data={sampleArcs} globeConfig={globeConfig} />
         </div>
       </div>

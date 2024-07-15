@@ -73,10 +73,21 @@ export const FloatingNav = ({
             <span className="hidden sm:block text-sm">{navItem.name}</span>
           </Link>
         ))}
-        <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
-          <span>Download</span>
-          <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-green-300 to-transparent  h-px" />
-        </button>
+        <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-green-300 focus:ring-offset-2 focus:ring-offset-green-50">
+  <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#12ff00_0%,#f9fcf2_50%,#12ff00_100%)]" />
+  <span className="inline-flex h-full w-full cursor-pointer items-center font-bold justify-center rounded-full bg-black px-3 py-1 text-sm  text-white backdrop-blur-3xl">
+    Dashboard
+
+  </span>
+</button>
+          
+         
+           
+     
+          
+     
+    
+     
       </motion.div>
     </AnimatePresence>
   );

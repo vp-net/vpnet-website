@@ -12,12 +12,12 @@ export function FloatingNavDemo() {
     },
     {
       name: "About",
-      link: "/a",
+      link: "https://dashboard.vp-net.org",
       icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
       name: "Pricings",
-      link: "/Pricing",
+      link: "/pricings",
       icon: (
         <GiMoneyStack className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
