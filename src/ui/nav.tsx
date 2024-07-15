@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { FloatingNav } from "../components/navbar";
-import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
+import { IconHome, IconUser } from "@tabler/icons-react";
 import { GiMoneyStack } from "react-icons/gi";
 export function FloatingNavDemo() {
   const navItems = [
@@ -26,6 +26,7 @@ export function FloatingNavDemo() {
   return (
     <div className="relative  w-full">
       <FloatingNav navItems={navItems} />
+      <link href="https://dashboard.vp-net.org/"/>
       
     </div>
   );
