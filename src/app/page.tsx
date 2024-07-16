@@ -28,7 +28,7 @@ export default function Home() {
           </p>
      
      <div className=" flex-direction:column">
-     {/* <GlowingStarsBackgroundCardPreview/> */}
+   
  
      </div>
   
