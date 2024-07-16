@@ -4,7 +4,7 @@
 import {FeaturesSectionDemo} from "@/components/tabs";
 import {GlobeDemo} from "@/ui/globe";
 import { FloatingNavDemo } from "@/ui/nav";
-import { GlowingStarsBackgroundCardPreview } from "@/ui/payment-cards";
+// import { GlowingStarsBackgroundCardPreview } from "@/ui/payment-cards";
 import ParticlesDemo from "@/ui/stuff";
 
 
