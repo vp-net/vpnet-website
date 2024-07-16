@@ -1,10 +1,10 @@
 "use client";
 
 
+import { GlowingStarsBackgroundCard } from "@/components/card";
 import {FeaturesSectionDemo} from "@/components/tabs";
 import {GlobeDemo} from "@/ui/globe";
 import { FloatingNavDemo } from "@/ui/nav";
-// import { GlowingStarsBackgroundCardPreview } from "@/ui/payment-cards";
 import ParticlesDemo from "@/ui/stuff";
 
 
@@ -27,9 +27,8 @@ export default function Home() {
               <br/>Only we offer the best value for your money
           </p>
      
-     <div className=" flex-direction:column">
-   
- 
+     <div className=" w-full">
+     <GlowingStarsBackgroundCard/>
      </div>
   
      

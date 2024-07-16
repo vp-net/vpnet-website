@@ -1,26 +1,44 @@
 "use client";
-import { GlareCard } from "../components/card";
+import React from "react";
+import {
+  GlowingStarsBackgroundCard,
+  GlowingStarsDescription,
+  GlowingStarsTitle,
+} from "../components/card";
 
-export function GlareCardDemo() {
+export function GlowingStarsBackgroundCardPreview() {
   return (
-    <GlareCard className="flex flex-col items-center justify-center">
-      <svg
-        width="66"
-        height="65"
-        viewBox="0 0 66 65"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        className="h-7 w-7 text-white"
-      >
-        <path
-          d="M8 8.05571C8 8.05571 54.9009 18.1782 57.8687 30.062C60.8365 41.9458 9.05432 57.4696 9.05432 57.4696"
-          stroke="currentColor"
-          strokeWidth="15"
-          strokeMiterlimit="3.86874"
-          strokeLinecap="round"
-        />
-      </svg>
-      <p className="text-white font-bold text-xl mt-4">Aceternity</p>
-    </GlareCard>
+    <div className="flex py-20 items-center justify-center antialiased">
+      <GlowingStarsBackgroundCard>
+        <GlowingStarsTitle>Next.js 14</GlowingStarsTitle>
+        <div className="flex justify-between items-end">
+          <GlowingStarsDescription>
+            The power of full-stack to the frontend. Read the release notes.
+          </GlowingStarsDescription>
+          <div className="h-8 w-8 rounded-full bg-[hsla(0,0%,100%,.1)] flex items-center justify-center">
+            <Icon />
+          </div>
+        </div>
+      </GlowingStarsBackgroundCard>
+    </div>
   );
 }
+
+const Icon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      className="h-4 w-4 text-white stroke-2"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+      />
+    </svg>
+  );
+};
