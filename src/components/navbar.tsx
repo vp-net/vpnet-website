@@ -63,9 +63,8 @@ export const FloatingNav = ({
         
         {navItems.map((navItem: any, idx: number) => (
           <Link
-            href="https://dashboard.vp-net.org/"
             key={`link=${idx}`}//arsh add download
-            // href={navItem.link}
+            href={navItem.link}
             className={cn(
               "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 "
             )}

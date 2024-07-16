@@ -16,7 +16,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <main className="bg-[#000000] flex min-h-screen flex-col items-center pt-24  ps-3 lg:px-24 sm:ps-1 pe-3 px-24 sm:p-2">
+    <main className="bg-[#000000] flex min-h-screen flex-col items-center  ps-3 lg:px-24 sm:ps-1 pe-3 px-24 sm:p-2">
      <FloatingNavDemo/>
      <ParticlesDemo/>
      <GlobeDemo/>
