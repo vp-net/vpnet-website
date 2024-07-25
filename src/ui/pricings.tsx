@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { CheckIcon } from '@radix-ui/react-icons'
 import { motion } from 'framer-motion'
@@ -177,7 +177,7 @@ export default function PricingSection() {
                         disabled={isLoading}
                         onClick={() => void onSubscribeClick(price.id)}
                      >
-                        <span className="absolute right-0 -mt-12 h-32 w-8 translate-x-12 rotate-12 transform-gpu bg-green-200  transition-all duration-1000 ease-out group-hover:-translate-x-96 dark:bg-green-400" />
+                        <span className="absolute right-0 -mt-12 h-32 w-8 translate-x-12 rotate-12 transform-gpu bg-green-200  transition-all duration-1000 ease-out group-hover:-translate-x-96 dark:bg-neutral-300" />
                         {(!isLoading || (isLoading && id !== price.id)) && (
                            <p>Subscribe</p>
                         )}
