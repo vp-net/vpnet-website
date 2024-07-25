@@ -23,14 +23,7 @@ export default function Home() {
      <GlobeDemo/>
      <h1 className="relative z-1  text-3xl md:text-3xl lg:text-3xl sm:text-1xl ps-3  bg-clip-text  bg-gradient-to-b  text-neutral-50   text-center font-sans font-bold">Features</h1>
      <FeaturesSectionDemo/>
-     
-     <h1 className="relative z-1  text-3xl md:text-3xl lg:text-3xl  sm:text-1xl ps-3  bg-clip-text  bg-gradient-to-b  text-neutral-50    text-center font-sans font-bold">Why Choose Our VPN ?</h1>
-     <p className="relative z-1  text-1xl md:text-1xl  sm:text-1xl bg-clip-text  bg-gradient-to-b  text-neutral-50   text-center font-sans font-bold">
-              <br/>Only we offer the best value for your money
-          </p>
-         
-     
-      
+           
     </main>
  
     <div className ="py-5 bg-black">
