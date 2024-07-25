@@ -87,15 +87,15 @@ export default function PricingSection() {
     
 
                <h2 className="pt-4 text-5xl font-bold tracking-tight text-black sm:text-6xl dark:text-white">
-                  Simple pricing for everyone.
+                  Affordable pricing for everyone.
                </h2>
 
                <p className="mt-6 text-xl leading-8 text-black/80 dark:text-white">
-                  Choose an
+                  Our 
                   {' '}
-                  <strong>affordable plan</strong>
+                  <strong>plans</strong>
                   {' '}
-                  that&apos;s tailored fit for your needs. 
+                  are tailored fit for your needs. 
                </p>
             </div>
 
