@@ -8,6 +8,7 @@ import React from 'react'
 export default function pricing(){
     return(
         <main>
+            <div className=' '>
             <link href ="/Pricing" className="bg-black"></link>
             <FloatingNavDemo/>
             <PricingSection/>
@@ -16,6 +17,7 @@ export default function pricing(){
             </div>
             
             <SiteFooter/>
+            </div>
             
         </main>
     )
