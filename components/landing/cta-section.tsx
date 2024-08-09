@@ -179,7 +179,7 @@ export default function CallToActionSection() {
                      ))}
                   </Marquee>
 
-                  <div className="absolute z-10 sm:p-1">
+                  <div className="absolute z-10 p-2">
                      <div className="mx-auto size-24 rounded-[2rem] border bg-white/10 p-2 shadow-2xl backdrop-blur-md lg:size-32 dark:bg-black/10">
                         <ArrowUpDown className="mx-auto size-16 text-black lg:size-24 dark:text-white" />
                      </div>
