@@ -8,8 +8,8 @@ const footerNavs = [
       label: 'Product',
       items: [
          {
-            href: '/',
-            name: 'Email Collection',
+            href: 'https://dashboard.vp-net.org/',
+            name: 'VPN',
          },
          {
             href: '/pricing',
@@ -44,7 +44,7 @@ const footerNavs = [
       label: 'Legal',
       items: [
          {
-            href: 'https://dashboard.vp-net.org/#/terms',
+            href: '/terms',
             name: 'Terms',
          },
 
