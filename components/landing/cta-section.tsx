@@ -112,6 +112,7 @@ export default function CallToActionSection() {
    const [randomTiles2, setRandomTiles2] = useState<typeof tiles>([])
    const [randomTiles3, setRandomTiles3] = useState<typeof tiles>([])
    const [randomTiles4, setRandomTiles4] = useState<typeof tiles>([])
+   const [randomTiles5, setRandomTiles5] = useState<typeof tiles>([])
 
    useEffect(() => {
       if (typeof window !== 'undefined') {
@@ -120,6 +121,8 @@ export default function CallToActionSection() {
          setRandomTiles2(shuffleArray([...tiles]))
          setRandomTiles3(shuffleArray([...tiles]))
          setRandomTiles4(shuffleArray([...tiles]))
+         setRandomTiles5(shuffleArray([...tiles]))
+        
       }
    }, [])
 
@@ -130,7 +133,7 @@ export default function CallToActionSection() {
                <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
                   <Marquee
                      reverse
-                     className="-delay-[200ms] [--duration:10s]"
+                     className="-delay-[100ms] [--duration:10s]"
                      repeat={5}
                   >
                      {randomTiles1.map((review, idx) => (
@@ -165,13 +168,19 @@ export default function CallToActionSection() {
                         <Card key={idx} {...review} />
                      ))}
                   </Marquee>
-                  <Marquee reverse className="[--duration:30s]" repeat={5}>
+                  <Marquee reverse className="[--duration:20s]" repeat={5}>
                      {randomTiles4.map((review, idx) => (
                         <Card key={idx} {...review} />
                      ))}
                   </Marquee>
-                  <div className="absolute z-10">
-                     <div className="mx-auto size-24 rounded-[2rem] border bg-white/10 p-3 shadow-2xl backdrop-blur-md lg:size-32 dark:bg-black/10">
+                  <Marquee reverse className="[--duration:20s]" repeat={5}>
+                     {randomTiles5.map((review, idx) => (
+                        <Card key={idx} {...review} />
+                     ))}
+                  </Marquee>
+
+                  <div className="absolute z-10 top-20">
+                     <div className="mx-auto size-24 rounded-[2rem] border bg-white/10 p-2 shadow-2xl backdrop-blur-md lg:size-32 dark:bg-black/10">
                         <ArrowUpDown className="mx-auto size-16 text-black lg:size-24 dark:text-white" />
                      </div>
                      <div className="text-primary z-10 mt-4 flex flex-col items-center text-center">
